@@ -357,7 +357,6 @@ python scripts/plot_all_method_timelines.py \
   --output outputs/figures/method_comparison_matplotlib/05_qualitative_all_methods_timelines
 ```
 
-Os nomes técnicos das fases nas timelines permanecem em inglês: `pick`, `move`, `open`, `place`, `close`. Títulos e explicações das figuras estão em português; frases abertas preservam o idioma produzido pelo Qwen.
 
 ```bash
 # Vídeo do Qwen aberto com seus tempos originais.
