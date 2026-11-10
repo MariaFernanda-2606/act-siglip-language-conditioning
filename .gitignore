@@ -1,0 +1,38 @@
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# LeRobot datasets, copied annotation runs, videos and Parquet shards.
+# The small manual reference annotations remain versioned.
+datasets_annotation/*
+!datasets_annotation/evaluation_ground_truth/
+!datasets_annotation/evaluation_ground_truth/**
+
+# Generated experiments and presentation artifacts
+outputs/
+qa/
+documents/
+output/
+
+# Model and Hugging Face caches
+.cache/
+cache/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# OS files
+.DS_Store
+Thumbs.db

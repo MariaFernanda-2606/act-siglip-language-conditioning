@@ -1,0 +1,2902 @@
+{
+  "version": 2,
+  "schema": {
+    "persistent_styles": [
+      "memory",
+      "plan",
+      "subtask"
+    ],
+    "event_styles": [
+      "interjection",
+      "vqa"
+    ]
+  },
+  "episodes": {
+    "0": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 13.266666666666667,
+          "start_frame": 0,
+          "end_frame": 398
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 13.266666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.266666666666667,
+          "end_timestamp": 18.3,
+          "start_frame": 398,
+          "end_frame": 549
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 18.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 18.3,
+          "end_timestamp": 22.333333333333332,
+          "start_frame": 549,
+          "end_frame": 670
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 22.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.333333333333332,
+          "end_timestamp": 26.033333333333335,
+          "start_frame": 670,
+          "end_frame": 781
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 26.033333333333335,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 26.033333333333335,
+          "end_timestamp": 30.766666666666666,
+          "start_frame": 781,
+          "end_frame": 923
+        }
+      ]
+    },
+    "5": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 11.4,
+          "start_frame": 0,
+          "end_frame": 342
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 11.4,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.4,
+          "end_timestamp": 16.833333333333332,
+          "start_frame": 342,
+          "end_frame": 505
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 16.833333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.833333333333332,
+          "end_timestamp": 19.933333333333334,
+          "start_frame": 505,
+          "end_frame": 598
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 19.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 19.933333333333334,
+          "end_timestamp": 24.1,
+          "start_frame": 598,
+          "end_frame": 723
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 24.1,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 24.1,
+          "end_timestamp": 30.066666666666666,
+          "start_frame": 723,
+          "end_frame": 902
+        }
+      ]
+    },
+    "7": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 9.933333333333334,
+          "start_frame": 0,
+          "end_frame": 298
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 9.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 9.933333333333334,
+          "end_timestamp": 15.666666666666666,
+          "start_frame": 298,
+          "end_frame": 470
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 15.666666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.666666666666666,
+          "end_timestamp": 18.433333333333334,
+          "start_frame": 470,
+          "end_frame": 553
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 18.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 18.433333333333334,
+          "end_timestamp": 24.033333333333335,
+          "start_frame": 553,
+          "end_frame": 721
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 24.033333333333335,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 24.033333333333335,
+          "end_timestamp": 28.633333333333333,
+          "start_frame": 721,
+          "end_frame": 859
+        }
+      ]
+    },
+    "11": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 15.033333333333333,
+          "start_frame": 0,
+          "end_frame": 451
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 15.033333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.033333333333333,
+          "end_timestamp": 20.666666666666668,
+          "start_frame": 451,
+          "end_frame": 620
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 20.666666666666668,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.666666666666668,
+          "end_timestamp": 23.766666666666666,
+          "start_frame": 620,
+          "end_frame": 713
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 23.766666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 23.766666666666666,
+          "end_timestamp": 25.333333333333332,
+          "start_frame": 713,
+          "end_frame": 760
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 25.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 25.333333333333332,
+          "end_timestamp": 29.466666666666665,
+          "start_frame": 760,
+          "end_frame": 884
+        }
+      ]
+    },
+    "16": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 7.3,
+          "start_frame": 0,
+          "end_frame": 219
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 7.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.3,
+          "end_timestamp": 14.033333333333333,
+          "start_frame": 219,
+          "end_frame": 421
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 14.033333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 14.033333333333333,
+          "end_timestamp": 22.466666666666665,
+          "start_frame": 421,
+          "end_frame": 674
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 22.466666666666665,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.466666666666665,
+          "end_timestamp": 27.1,
+          "start_frame": 674,
+          "end_frame": 813
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 27.1,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 27.1,
+          "end_timestamp": 31.966666666666665,
+          "start_frame": 813,
+          "end_frame": 959
+        }
+      ]
+    },
+    "21": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 7.266666666666667,
+          "start_frame": 0,
+          "end_frame": 218
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 7.266666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.266666666666667,
+          "end_timestamp": 13.066666666666666,
+          "start_frame": 218,
+          "end_frame": 392
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 13.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.066666666666666,
+          "end_timestamp": 15.033333333333333,
+          "start_frame": 392,
+          "end_frame": 451
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 15.033333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.033333333333333,
+          "end_timestamp": 20.7,
+          "start_frame": 451,
+          "end_frame": 621
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 20.7,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.7,
+          "end_timestamp": 24.433333333333334,
+          "start_frame": 621,
+          "end_frame": 733
+        }
+      ]
+    },
+    "24": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red drawer",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.633333333333334,
+          "start_frame": 0,
+          "end_frame": 199
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 6.633333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.633333333333334,
+          "end_timestamp": 16.8,
+          "start_frame": 199,
+          "end_frame": 504
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 16.8,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.8,
+          "end_timestamp": 20.0,
+          "start_frame": 504,
+          "end_frame": 600
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 20.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.0,
+          "end_timestamp": 22.333333333333332,
+          "start_frame": 600,
+          "end_frame": 670
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 22.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.333333333333332,
+          "end_timestamp": 29.9,
+          "start_frame": 670,
+          "end_frame": 897
+        }
+      ]
+    },
+    "35": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 10.4,
+          "start_frame": 0,
+          "end_frame": 312
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 10.4,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.4,
+          "end_timestamp": 20.5,
+          "start_frame": 312,
+          "end_frame": 615
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 20.5,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.5,
+          "end_timestamp": 31.066666666666666,
+          "start_frame": 615,
+          "end_frame": 932
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 31.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 31.066666666666666,
+          "end_timestamp": 32.166666666666664,
+          "start_frame": 932,
+          "end_frame": 965
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 32.166666666666664,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 32.166666666666664,
+          "end_timestamp": 35.7,
+          "start_frame": 965,
+          "end_frame": 1071
+        }
+      ]
+    },
+    "38": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.466666666666667,
+          "start_frame": 0,
+          "end_frame": 194
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 6.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.466666666666667,
+          "end_timestamp": 10.8,
+          "start_frame": 194,
+          "end_frame": 324
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 10.8,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.8,
+          "end_timestamp": 13.666666666666666,
+          "start_frame": 324,
+          "end_frame": 410
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 13.666666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.666666666666666,
+          "end_timestamp": 16.633333333333333,
+          "start_frame": 410,
+          "end_frame": 499
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 16.633333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.633333333333333,
+          "end_timestamp": 20.766666666666666,
+          "start_frame": 499,
+          "end_frame": 623
+        }
+      ]
+    },
+    "40": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 7.133333333333334,
+          "start_frame": 0,
+          "end_frame": 214
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 7.133333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.133333333333334,
+          "end_timestamp": 14.766666666666667,
+          "start_frame": 214,
+          "end_frame": 443
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 14.766666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 14.766666666666667,
+          "end_timestamp": 17.133333333333333,
+          "start_frame": 443,
+          "end_frame": 514
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 17.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.133333333333333,
+          "end_timestamp": 21.066666666666666,
+          "start_frame": 514,
+          "end_frame": 632
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 21.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 21.066666666666666,
+          "end_timestamp": 24.566666666666666,
+          "start_frame": 632,
+          "end_frame": 737
+        }
+      ]
+    },
+    "45": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.3,
+          "start_frame": 0,
+          "end_frame": 159
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 5.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.3,
+          "end_timestamp": 11.3,
+          "start_frame": 159,
+          "end_frame": 339
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 11.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.3,
+          "end_timestamp": 13.466666666666667,
+          "start_frame": 339,
+          "end_frame": 404
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 13.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.466666666666667,
+          "end_timestamp": 15.6,
+          "start_frame": 404,
+          "end_frame": 468
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 15.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.6,
+          "end_timestamp": 19.833333333333332,
+          "start_frame": 468,
+          "end_frame": 595
+        }
+      ]
+    },
+    "49": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the red cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 7.533333333333333,
+          "start_frame": 0,
+          "end_frame": 226
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the red drawer",
+          "style": "subtask",
+          "timestamp": 7.533333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.533333333333333,
+          "end_timestamp": 11.466666666666667,
+          "start_frame": 226,
+          "end_frame": 344
+        },
+        {
+          "role": "assistant",
+          "content": "open the red drawer",
+          "style": "subtask",
+          "timestamp": 11.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.466666666666667,
+          "end_timestamp": 13.333333333333334,
+          "start_frame": 344,
+          "end_frame": 400
+        },
+        {
+          "role": "assistant",
+          "content": "place the red cube inside the red drawer",
+          "style": "subtask",
+          "timestamp": 13.333333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.333333333333334,
+          "end_timestamp": 16.066666666666666,
+          "start_frame": 400,
+          "end_frame": 482
+        },
+        {
+          "role": "assistant",
+          "content": "close the red drawer",
+          "style": "subtask",
+          "timestamp": 16.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.066666666666666,
+          "end_timestamp": 19.166666666666668,
+          "start_frame": 482,
+          "end_frame": 575
+        }
+      ]
+    },
+    "55": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.233333333333333,
+          "start_frame": 0,
+          "end_frame": 187
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 6.233333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.233333333333333,
+          "end_timestamp": 11.366666666666667,
+          "start_frame": 187,
+          "end_frame": 341
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 11.366666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.366666666666667,
+          "end_timestamp": 25.866666666666667,
+          "start_frame": 341,
+          "end_frame": 776
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 25.866666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 25.866666666666667,
+          "end_timestamp": 28.933333333333334,
+          "start_frame": 776,
+          "end_frame": 868
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 28.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 28.933333333333334,
+          "end_timestamp": 32.833333333333336,
+          "start_frame": 868,
+          "end_frame": 985
+        }
+      ]
+    },
+    "58": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.466666666666667,
+          "start_frame": 0,
+          "end_frame": 164
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 5.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.466666666666667,
+          "end_timestamp": 11.133333333333333,
+          "start_frame": 164,
+          "end_frame": 334
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 11.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.133333333333333,
+          "end_timestamp": 19.3,
+          "start_frame": 334,
+          "end_frame": 579
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 19.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 19.3,
+          "end_timestamp": 21.966666666666665,
+          "start_frame": 579,
+          "end_frame": 659
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 21.966666666666665,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 21.966666666666665,
+          "end_timestamp": 24.933333333333334,
+          "start_frame": 659,
+          "end_frame": 748
+        }
+      ]
+    },
+    "63": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.466666666666667,
+          "start_frame": 0,
+          "end_frame": 134
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 4.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.466666666666667,
+          "end_timestamp": 9.7,
+          "start_frame": 134,
+          "end_frame": 291
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 9.7,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 9.7,
+          "end_timestamp": 16.033333333333335,
+          "start_frame": 291,
+          "end_frame": 481
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 16.033333333333335,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.033333333333335,
+          "end_timestamp": 18.666666666666668,
+          "start_frame": 481,
+          "end_frame": 560
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 18.666666666666668,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 18.666666666666668,
+          "end_timestamp": 22.066666666666666,
+          "start_frame": 560,
+          "end_frame": 662
+        }
+      ]
+    },
+    "67": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.433333333333334,
+          "start_frame": 0,
+          "end_frame": 133
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 4.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.433333333333334,
+          "end_timestamp": 9.133333333333333,
+          "start_frame": 133,
+          "end_frame": 274
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 9.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 9.133333333333333,
+          "end_timestamp": 17.433333333333334,
+          "start_frame": 274,
+          "end_frame": 523
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 17.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.433333333333334,
+          "end_timestamp": 19.833333333333332,
+          "start_frame": 523,
+          "end_frame": 595
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 19.833333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 19.833333333333332,
+          "end_timestamp": 24.033333333333335,
+          "start_frame": 595,
+          "end_frame": 721
+        }
+      ]
+    },
+    "70": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 3.8666666666666667,
+          "start_frame": 0,
+          "end_frame": 116
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 3.8666666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 3.8666666666666667,
+          "end_timestamp": 7.633333333333334,
+          "start_frame": 116,
+          "end_frame": 229
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 7.633333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.633333333333334,
+          "end_timestamp": 18.6,
+          "start_frame": 229,
+          "end_frame": 558
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 18.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 18.6,
+          "end_timestamp": 23.8,
+          "start_frame": 558,
+          "end_frame": 714
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 23.8,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 23.8,
+          "end_timestamp": 27.566666666666666,
+          "start_frame": 714,
+          "end_frame": 827
+        }
+      ]
+    },
+    "75": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.433333333333334,
+          "start_frame": 0,
+          "end_frame": 193
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 6.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.433333333333334,
+          "end_timestamp": 10.333333333333334,
+          "start_frame": 193,
+          "end_frame": 310
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 10.333333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.333333333333334,
+          "end_timestamp": 14.933333333333334,
+          "start_frame": 310,
+          "end_frame": 448
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 14.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 14.933333333333334,
+          "end_timestamp": 22.166666666666668,
+          "start_frame": 448,
+          "end_frame": 665
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 22.166666666666668,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.166666666666668,
+          "end_timestamp": 25.766666666666666,
+          "start_frame": 665,
+          "end_frame": 773
+        }
+      ]
+    },
+    "81": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.766666666666667,
+          "start_frame": 0,
+          "end_frame": 173
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 5.766666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.766666666666667,
+          "end_timestamp": 9.466666666666667,
+          "start_frame": 173,
+          "end_frame": 284
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 9.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 9.466666666666667,
+          "end_timestamp": 16.933333333333334,
+          "start_frame": 284,
+          "end_frame": 508
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 16.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.933333333333334,
+          "end_timestamp": 19.066666666666666,
+          "start_frame": 508,
+          "end_frame": 572
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 19.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 19.066666666666666,
+          "end_timestamp": 22.433333333333334,
+          "start_frame": 572,
+          "end_frame": 673
+        }
+      ]
+    },
+    "84": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 3.8,
+          "start_frame": 0,
+          "end_frame": 114
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 3.8,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 3.8,
+          "end_timestamp": 7.933333333333334,
+          "start_frame": 114,
+          "end_frame": 238
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 7.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.933333333333334,
+          "end_timestamp": 12.133333333333333,
+          "start_frame": 238,
+          "end_frame": 364
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 12.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.133333333333333,
+          "end_timestamp": 17.133333333333333,
+          "start_frame": 364,
+          "end_frame": 514
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 17.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.133333333333333,
+          "end_timestamp": 21.0,
+          "start_frame": 514,
+          "end_frame": 630
+        }
+      ]
+    },
+    "87": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.666666666666667,
+          "start_frame": 0,
+          "end_frame": 170
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 5.666666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.666666666666667,
+          "end_timestamp": 8.233333333333333,
+          "start_frame": 170,
+          "end_frame": 247
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 8.233333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 8.233333333333333,
+          "end_timestamp": 15.933333333333334,
+          "start_frame": 247,
+          "end_frame": 478
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 15.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.933333333333334,
+          "end_timestamp": 17.6,
+          "start_frame": 478,
+          "end_frame": 528
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 17.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.6,
+          "end_timestamp": 20.733333333333334,
+          "start_frame": 528,
+          "end_frame": 622
+        }
+      ]
+    },
+    "89": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 3.2333333333333334,
+          "start_frame": 0,
+          "end_frame": 97
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 3.2333333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 3.2333333333333334,
+          "end_timestamp": 7.666666666666667,
+          "start_frame": 97,
+          "end_frame": 230
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 7.666666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.666666666666667,
+          "end_timestamp": 13.9,
+          "start_frame": 230,
+          "end_frame": 417
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 13.9,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.9,
+          "end_timestamp": 16.133333333333333,
+          "start_frame": 417,
+          "end_frame": 484
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 16.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.133333333333333,
+          "end_timestamp": 20.333333333333332,
+          "start_frame": 484,
+          "end_frame": 610
+        }
+      ]
+    },
+    "91": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 8.366666666666667,
+          "start_frame": 0,
+          "end_frame": 251
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 8.366666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 8.366666666666667,
+          "end_timestamp": 13.9,
+          "start_frame": 251,
+          "end_frame": 417
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 13.9,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.9,
+          "end_timestamp": 19.833333333333332,
+          "start_frame": 417,
+          "end_frame": 595
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 19.833333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 19.833333333333332,
+          "end_timestamp": 22.9,
+          "start_frame": 595,
+          "end_frame": 687
+        },
+        {
+          "role": "assistant",
+          "content": "close the green cube",
+          "style": "subtask",
+          "timestamp": 22.9,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.9,
+          "end_timestamp": 25.266666666666666,
+          "start_frame": 687,
+          "end_frame": 758
+        }
+      ]
+    },
+    "94": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.966666666666667,
+          "start_frame": 0,
+          "end_frame": 149
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 4.966666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.966666666666667,
+          "end_timestamp": 8.266666666666667,
+          "start_frame": 149,
+          "end_frame": 248
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 8.266666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 8.266666666666667,
+          "end_timestamp": 14.6,
+          "start_frame": 248,
+          "end_frame": 438
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 14.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 14.6,
+          "end_timestamp": 20.633333333333333,
+          "start_frame": 438,
+          "end_frame": 619
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 20.633333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.633333333333333,
+          "end_timestamp": 25.8,
+          "start_frame": 619,
+          "end_frame": 774
+        }
+      ]
+    },
+    "96": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.0,
+          "start_frame": 0,
+          "end_frame": 120
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 4.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.0,
+          "end_timestamp": 6.8,
+          "start_frame": 120,
+          "end_frame": 204
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 6.8,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.8,
+          "end_timestamp": 10.7,
+          "start_frame": 204,
+          "end_frame": 321
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 10.7,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.7,
+          "end_timestamp": 16.1,
+          "start_frame": 321,
+          "end_frame": 483
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 16.1,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.1,
+          "end_timestamp": 19.1,
+          "start_frame": 483,
+          "end_frame": 573
+        }
+      ]
+    },
+    "98": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 13.6,
+          "start_frame": 0,
+          "end_frame": 408
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 13.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.6,
+          "end_timestamp": 17.933333333333334,
+          "start_frame": 408,
+          "end_frame": 538
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 17.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.933333333333334,
+          "end_timestamp": 31.6,
+          "start_frame": 538,
+          "end_frame": 948
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 31.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 31.6,
+          "end_timestamp": 33.2,
+          "start_frame": 948,
+          "end_frame": 996
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 33.2,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 33.2,
+          "end_timestamp": 36.3,
+          "start_frame": 996,
+          "end_frame": 1089
+        }
+      ]
+    },
+    "99": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.266666666666667,
+          "start_frame": 0,
+          "end_frame": 188
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 6.266666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.266666666666667,
+          "end_timestamp": 10.533333333333333,
+          "start_frame": 188,
+          "end_frame": 316
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 10.533333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.533333333333333,
+          "end_timestamp": 20.7,
+          "start_frame": 316,
+          "end_frame": 621
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 20.7,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.7,
+          "end_timestamp": 26.566666666666666,
+          "start_frame": 621,
+          "end_frame": 797
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 26.566666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 26.566666666666666,
+          "end_timestamp": 30.1,
+          "start_frame": 797,
+          "end_frame": 903
+        }
+      ]
+    },
+    "100": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.566666666666666,
+          "start_frame": 0,
+          "end_frame": 167
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 5.566666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.566666666666666,
+          "end_timestamp": 11.466666666666667,
+          "start_frame": 167,
+          "end_frame": 344
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 11.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.466666666666667,
+          "end_timestamp": 23.5,
+          "start_frame": 344,
+          "end_frame": 705
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 23.5,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 23.5,
+          "end_timestamp": 25.833333333333332,
+          "start_frame": 705,
+          "end_frame": 775
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 25.833333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 25.833333333333332,
+          "end_timestamp": 28.566666666666666,
+          "start_frame": 775,
+          "end_frame": 857
+        }
+      ]
+    },
+    "101": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.266666666666667,
+          "start_frame": 0,
+          "end_frame": 128
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 4.266666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.266666666666667,
+          "end_timestamp": 10.433333333333334,
+          "start_frame": 128,
+          "end_frame": 313
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 10.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.433333333333334,
+          "end_timestamp": 16.966666666666665,
+          "start_frame": 313,
+          "end_frame": 509
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 16.966666666666665,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.966666666666665,
+          "end_timestamp": 24.866666666666667,
+          "start_frame": 509,
+          "end_frame": 746
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 24.866666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 24.866666666666667,
+          "end_timestamp": 27.466666666666665,
+          "start_frame": 746,
+          "end_frame": 824
+        }
+      ]
+    },
+    "107": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 12.2,
+          "start_frame": 0,
+          "end_frame": 366
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 12.2,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.2,
+          "end_timestamp": 14.766666666666667,
+          "start_frame": 366,
+          "end_frame": 443
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 14.766666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 14.766666666666667,
+          "end_timestamp": 34.4,
+          "start_frame": 443,
+          "end_frame": 1032
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 34.4,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 34.4,
+          "end_timestamp": 39.63333333333333,
+          "start_frame": 1032,
+          "end_frame": 1189
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 39.63333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 39.63333333333333,
+          "end_timestamp": 43.166666666666664,
+          "start_frame": 1189,
+          "end_frame": 1295
+        }
+      ]
+    },
+    "113": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 12.9,
+          "start_frame": 0,
+          "end_frame": 387
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 12.9,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.9,
+          "end_timestamp": 17.033333333333335,
+          "start_frame": 387,
+          "end_frame": 511
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 17.033333333333335,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.033333333333335,
+          "end_timestamp": 19.266666666666666,
+          "start_frame": 511,
+          "end_frame": 578
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 19.266666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 19.266666666666666,
+          "end_timestamp": 22.266666666666666,
+          "start_frame": 578,
+          "end_frame": 668
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 22.266666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.266666666666666,
+          "end_timestamp": 29.533333333333335,
+          "start_frame": 668,
+          "end_frame": 886
+        }
+      ]
+    },
+    "125": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow drawer",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 11.3,
+          "start_frame": 0,
+          "end_frame": 339
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 11.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.3,
+          "end_timestamp": 16.466666666666665,
+          "start_frame": 339,
+          "end_frame": 494
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 16.466666666666665,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.466666666666665,
+          "end_timestamp": 22.633333333333333,
+          "start_frame": 494,
+          "end_frame": 679
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 22.633333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.633333333333333,
+          "end_timestamp": 25.933333333333334,
+          "start_frame": 679,
+          "end_frame": 778
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 25.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 25.933333333333334,
+          "end_timestamp": 30.2,
+          "start_frame": 778,
+          "end_frame": 906
+        }
+      ]
+    },
+    "135": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.666666666666667,
+          "start_frame": 0,
+          "end_frame": 200
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 6.666666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.666666666666667,
+          "end_timestamp": 13.2,
+          "start_frame": 200,
+          "end_frame": 396
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 13.2,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.2,
+          "end_timestamp": 21.433333333333334,
+          "start_frame": 396,
+          "end_frame": 643
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 21.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 21.433333333333334,
+          "end_timestamp": 24.266666666666666,
+          "start_frame": 643,
+          "end_frame": 728
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 24.266666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 24.266666666666666,
+          "end_timestamp": 27.9,
+          "start_frame": 728,
+          "end_frame": 837
+        }
+      ]
+    },
+    "142": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.466666666666667,
+          "start_frame": 0,
+          "end_frame": 194
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 6.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.466666666666667,
+          "end_timestamp": 10.166666666666666,
+          "start_frame": 194,
+          "end_frame": 305
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 10.166666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.166666666666666,
+          "end_timestamp": 13.666666666666666,
+          "start_frame": 305,
+          "end_frame": 410
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 13.666666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.666666666666666,
+          "end_timestamp": 21.333333333333332,
+          "start_frame": 410,
+          "end_frame": 640
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 21.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 21.333333333333332,
+          "end_timestamp": 24.333333333333332,
+          "start_frame": 640,
+          "end_frame": 730
+        }
+      ]
+    },
+    "147": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.3,
+          "start_frame": 0,
+          "end_frame": 189
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 6.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.3,
+          "end_timestamp": 12.433333333333334,
+          "start_frame": 189,
+          "end_frame": 373
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 12.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.433333333333334,
+          "end_timestamp": 15.533333333333333,
+          "start_frame": 373,
+          "end_frame": 466
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 15.533333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.533333333333333,
+          "end_timestamp": 17.966666666666665,
+          "start_frame": 466,
+          "end_frame": 539
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 17.966666666666665,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.966666666666665,
+          "end_timestamp": 23.066666666666666,
+          "start_frame": 539,
+          "end_frame": 692
+        }
+      ]
+    },
+    "150": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.3,
+          "start_frame": 0,
+          "end_frame": 189
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 6.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.3,
+          "end_timestamp": 12.866666666666667,
+          "start_frame": 189,
+          "end_frame": 386
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 12.866666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.866666666666667,
+          "end_timestamp": 15.066666666666666,
+          "start_frame": 386,
+          "end_frame": 452
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 15.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.066666666666666,
+          "end_timestamp": 18.266666666666666,
+          "start_frame": 452,
+          "end_frame": 548
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 18.266666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 18.266666666666666,
+          "end_timestamp": 22.2,
+          "start_frame": 548,
+          "end_frame": 666
+        }
+      ]
+    },
+    "155": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.366666666666666,
+          "start_frame": 0,
+          "end_frame": 191
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 6.366666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.366666666666666,
+          "end_timestamp": 12.1,
+          "start_frame": 191,
+          "end_frame": 363
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 12.1,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.1,
+          "end_timestamp": 15.466666666666667,
+          "start_frame": 363,
+          "end_frame": 464
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 15.466666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 15.466666666666667,
+          "end_timestamp": 20.466666666666665,
+          "start_frame": 464,
+          "end_frame": 614
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 20.466666666666665,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.466666666666665,
+          "end_timestamp": 24.1,
+          "start_frame": 614,
+          "end_frame": 723
+        }
+      ]
+    },
+    "158": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 6.366666666666666,
+          "start_frame": 0,
+          "end_frame": 191
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 6.366666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 6.366666666666666,
+          "end_timestamp": 11.933333333333334,
+          "start_frame": 191,
+          "end_frame": 358
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 11.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 11.933333333333334,
+          "end_timestamp": 14.433333333333334,
+          "start_frame": 358,
+          "end_frame": 433
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 14.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 14.433333333333334,
+          "end_timestamp": 17.0,
+          "start_frame": 433,
+          "end_frame": 510
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 17.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.0,
+          "end_timestamp": 21.566666666666666,
+          "start_frame": 510,
+          "end_frame": 647
+        }
+      ]
+    },
+    "161": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.7,
+          "start_frame": 0,
+          "end_frame": 141
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 4.7,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.7,
+          "end_timestamp": 8.966666666666667,
+          "start_frame": 141,
+          "end_frame": 269
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 8.966666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 8.966666666666667,
+          "end_timestamp": 13.333333333333334,
+          "start_frame": 269,
+          "end_frame": 400
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 13.333333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.333333333333334,
+          "end_timestamp": 17.0,
+          "start_frame": 400,
+          "end_frame": 510
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 17.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.0,
+          "end_timestamp": 20.466666666666665,
+          "start_frame": 510,
+          "end_frame": 614
+        }
+      ]
+    },
+    "163": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.933333333333334,
+          "start_frame": 0,
+          "end_frame": 178
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 5.933333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.933333333333334,
+          "end_timestamp": 12.066666666666666,
+          "start_frame": 178,
+          "end_frame": 362
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 12.066666666666666,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 12.066666666666666,
+          "end_timestamp": 21.2,
+          "start_frame": 362,
+          "end_frame": 636
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 21.2,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 21.2,
+          "end_timestamp": 23.333333333333332,
+          "start_frame": 636,
+          "end_frame": 700
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 23.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 23.333333333333332,
+          "end_timestamp": 26.866666666666667,
+          "start_frame": 700,
+          "end_frame": 806
+        }
+      ]
+    },
+    "166": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 4.5,
+          "start_frame": 0,
+          "end_frame": 135
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 4.5,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 4.5,
+          "end_timestamp": 7.966666666666667,
+          "start_frame": 135,
+          "end_frame": 239
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 7.966666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 7.966666666666667,
+          "end_timestamp": 16.333333333333332,
+          "start_frame": 239,
+          "end_frame": 490
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 16.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 16.333333333333332,
+          "end_timestamp": 20.133333333333333,
+          "start_frame": 490,
+          "end_frame": 604
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 20.133333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.133333333333333,
+          "end_timestamp": 25.266666666666666,
+          "start_frame": 604,
+          "end_frame": 758
+        }
+      ]
+    },
+    "167": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.233333333333333,
+          "start_frame": 0,
+          "end_frame": 157
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 5.233333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.233333333333333,
+          "end_timestamp": 9.333333333333334,
+          "start_frame": 157,
+          "end_frame": 280
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 9.333333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 9.333333333333334,
+          "end_timestamp": 20.433333333333334,
+          "start_frame": 280,
+          "end_frame": 613
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 20.433333333333334,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 20.433333333333334,
+          "end_timestamp": 22.333333333333332,
+          "start_frame": 613,
+          "end_frame": 670
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 22.333333333333332,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 22.333333333333332,
+          "end_timestamp": 25.066666666666666,
+          "start_frame": 670,
+          "end_frame": 752
+        }
+      ]
+    },
+    "169": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 5.8,
+          "start_frame": 0,
+          "end_frame": 174
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 5.8,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 5.8,
+          "end_timestamp": 10.233333333333333,
+          "start_frame": 174,
+          "end_frame": 307
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 10.233333333333333,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 10.233333333333333,
+          "end_timestamp": 24.0,
+          "start_frame": 307,
+          "end_frame": 720
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow the yellow drawer",
+          "style": "subtask",
+          "timestamp": 24.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 24.0,
+          "end_timestamp": 27.7,
+          "start_frame": 720,
+          "end_frame": 831
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 27.7,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 27.7,
+          "end_timestamp": 29.866666666666667,
+          "start_frame": 831,
+          "end_frame": 896
+        }
+      ]
+    },
+    "171": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick the yellow cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 9.1,
+          "start_frame": 0,
+          "end_frame": 273
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the yellow drawer",
+          "style": "subtask",
+          "timestamp": 9.1,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 9.1,
+          "end_timestamp": 13.4,
+          "start_frame": 273,
+          "end_frame": 402
+        },
+        {
+          "role": "assistant",
+          "content": "open the yellow drawer",
+          "style": "subtask",
+          "timestamp": 13.4,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 13.4,
+          "end_timestamp": 24.3,
+          "start_frame": 402,
+          "end_frame": 729
+        },
+        {
+          "role": "assistant",
+          "content": "place the yellow cube inside the yellow drawer",
+          "style": "subtask",
+          "timestamp": 24.3,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 24.3,
+          "end_timestamp": 27.666666666666668,
+          "start_frame": 729,
+          "end_frame": 830
+        },
+        {
+          "role": "assistant",
+          "content": "close the yellow drawer",
+          "style": "subtask",
+          "timestamp": 27.666666666666668,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 27.666666666666668,
+          "end_timestamp": 31.633333333333333,
+          "start_frame": 830,
+          "end_frame": 949
+        }
+      ]
+    },
+    "249": {
+      "atoms": [
+        {
+          "role": "assistant",
+          "content": "pick up the green cube",
+          "style": "subtask",
+          "timestamp": 0.0,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 0.0,
+          "end_timestamp": 17.6,
+          "start_frame": 0,
+          "end_frame": 528
+        },
+        {
+          "role": "assistant",
+          "content": "move towards the green drawer",
+          "style": "subtask",
+          "timestamp": 17.6,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 17.6,
+          "end_timestamp": 32.2,
+          "start_frame": 528,
+          "end_frame": 966
+        },
+        {
+          "role": "assistant",
+          "content": "open the green drawer",
+          "style": "subtask",
+          "timestamp": 32.2,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 32.2,
+          "end_timestamp": 61.06666666666667,
+          "start_frame": 966,
+          "end_frame": 1832
+        },
+        {
+          "role": "assistant",
+          "content": "place the green cube inside the green drawer",
+          "style": "subtask",
+          "timestamp": 61.06666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 61.06666666666667,
+          "end_timestamp": 68.66666666666667,
+          "start_frame": 1832,
+          "end_frame": 2060
+        },
+        {
+          "role": "assistant",
+          "content": "close the green drawer",
+          "style": "subtask",
+          "timestamp": 68.66666666666667,
+          "camera": null,
+          "tool_calls": null,
+          "start_timestamp": 68.66666666666667,
+          "end_timestamp": 78.06666666666666,
+          "start_frame": 2060,
+          "end_frame": 2342
+        }
+      ]
+    }
+  },
+  "subtask_timing": {
+    "mode": "until_next_subtask",
+    "interval": "[start, end)",
+    "last_end": "episode_end",
+    "frame_end": "exclusive"
+  }
+}

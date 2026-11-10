@@ -1,0 +1,28 @@
+You are annotating a successful teleoperated robot demonstration shown as timestamped contact sheets. Each tile has its time in seconds burned into its top-left corner. The operator's goal was: "{episode_task}"
+
+{observation_block}This is a cube-to-matching-drawer task. The cube and drawer have one matching color: red, yellow, or green.
+
+Return exactly FIVE chronological segments. They must use this exact action order and exact label grammar, replacing <color> with the one color visible in the episode:
+
+1. pick_<color>_cube
+2. move_to_<color>_drawer
+3. open_<color>_drawer
+4. place_<color>_cube_in_<color>_drawer
+5. close_<color>_drawer
+
+Meaning of the boundaries:
+- pick starts at 0.0 and ends when the cube is securely held and begins moving with the gripper.
+- move_to_drawer starts immediately after pick and ends when drawer opening begins.
+- open_drawer starts with the first visible drawer motion and ends when the drawer is visibly open and motion stops.
+- place starts after opening and ends when the cube is released inside the drawer.
+- close_drawer starts immediately after release and ends at the end of the recording.
+
+Read the timestamps printed on the contact sheets. Use the closest visible timestamp for each transition. The five segments must be contiguous, non-overlapping, cover the entire interval [0.0, {episode_duration}], and each has start < end. Do not omit a phase, merge phases, repeat a phase, add a sixth phase, or use prose labels.
+
+Timing rules that are mandatory:
+- Only the first segment may start at 0.0.
+- The next four starts must be distinct timestamps observed later in the video; never use 0.0 as a placeholder.
+- The final segment must end at {episode_duration}.
+- Never use made-up example times. Every number must come from the timestamped contact sheets.
+
+Output only one valid JSON object, with a single key named "subtasks". Its value is an array of exactly five objects. Each object must contain exactly these fields: "text" (one of the five labels above), "start" (a JSON number in seconds), and "end" (a JSON number in seconds). Do not use Markdown or code fences.

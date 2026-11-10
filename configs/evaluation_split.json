@@ -1,0 +1,13 @@
+{
+  "seed": 1729,
+  "source": "datasets_annotation/evaluation_ground_truth/manual_ground_truth_45_episodes_canonical.json",
+  "development": {
+    "red": [0, 24, 38, 45],
+    "green": [58, 63, 70, 75, 98, 99],
+    "yellow": [125, 135, 142, 147, 158],
+    "episodes": [0, 24, 38, 45, 58, 63, 70, 75, 98, 99, 125, 135, 142, 147, 158]
+  },
+  "test": {
+    "episodes": [5, 7, 11, 16, 21, 35, 40, 49, 55, 67, 81, 84, 87, 89, 91, 94, 96, 100, 101, 249, 107, 113, 150, 155, 161, 163, 166, 167, 169, 171]
+  }
+}
