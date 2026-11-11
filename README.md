@@ -45,11 +45,10 @@ O Qwen fornece linguagem natural quando consegue descrever uma ação. A cinemá
 └── outputs/                                      # resultados gerados localmente
 ```
 
-O dataset v3 e cópias anotadas pelo LeRobot não devem ser enviados ao Git. Recomenda-se armazená-los fora do repositório.
 
 ## Configuração reproduzível
 
-Após clonar o repositório, defina caminhos locais genéricos. Nenhum comando abaixo depende de nome de usuário ou diretório pessoal.
+Após clonar o repositório, defina caminhos locais genéricos. 
 
 ```bash
 git clone <URL_DO_REPOSITORIO> act-siglip
@@ -220,7 +219,7 @@ Ele recebe três elementos:
 
 O script converte as frases do Qwen e descrições canônicas em embeddings SigLIP. Depois, alinha frases às fases em ordem temporal. Se uma frase é semanticamente compatível, ela é preservada; se o Qwen não descreveu uma fase, o script usa fallback colorido a partir da fase cinemática e dos metadados da tarefa.
 
-Os timestamps do Qwen não são usados como resposta final. Cada átomo produzido pelo híbrido contém fronteiras cinemáticas e campos de proveniência, como `qwen_open_vocab_text`, `semantic_cosine` e `canonical_semantic_target`.
+Os timestamps do Qwen não são usados como resposta final. Cada etapa produzida pelo híbrido contém fronteiras cinemáticas e campos de proveniência, como `qwen_open_vocab_text`, `semantic_cosine` e `canonical_semantic_target`.
 
 Execute o híbrido nos 45 episódios manuais:
 
@@ -308,7 +307,7 @@ python scripts/rebind_open_vocab_semantics.py \
 tIoU = |I_previsto ∩ I_manual| / |I_previsto ∪ I_manual|
 ```
 
-Quanto maior, melhor; `1.0` é perfeito.
+Quanto maior, melhor.
 
 **Boundary MAE** mede o erro absoluto médio dos tempos de transição, em segundos:
 
@@ -316,7 +315,7 @@ Quanto maior, melhor; `1.0` é perfeito.
 Boundary MAE = (1 / B) Σ |b_previsto,i − b_manual,i|
 ```
 
-Quanto menor, melhor; `0 s` é perfeito.
+Quanto menor, melhor.
 
 No vocabulário fechado, F1 avalia rótulos estruturados. No vocabulário aberto, as frases são comparadas com cosseno entre embeddings SigLIP:
 
