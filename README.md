@@ -515,7 +515,13 @@ O manifesto v4 usa as fronteiras de `segment_kinematic_subtasks.py` com refiname
 
 ## Treinamento
 
-O modelo final (**v7**, `act_siglip_progress_v4`, checkpoint `015000`) vem de 4 treinos em sequência. Cada treino parte do checkpoint do anterior:
+O modelo final (**v7**, `act_siglip_progress_v4`, checkpoint `015000`) está público no Hugging Face: **https://huggingface.co/MariaFPG/act_siglip_v7**
+
+```bash
+huggingface-cli download MariaFPG/act_siglip_v7 --local-dir models/act_siglip_v7   # depois: --policy-path models/act_siglip_v7
+```
+
+Ele vem de 4 treinos em sequência. Cada treino parte do checkpoint do anterior:
 
 | Etapa | Config | Passos | Parte de | Dataset | Mudança |
 |---|---|---:|---|---|---|
