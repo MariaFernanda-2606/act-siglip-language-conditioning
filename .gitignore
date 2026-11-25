@@ -36,3 +36,6 @@ wandb/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Editable-install metadata
+*.egg-info/

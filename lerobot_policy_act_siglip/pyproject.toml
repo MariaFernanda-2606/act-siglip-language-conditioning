@@ -1,0 +1,13 @@
+[project]
+name = "lerobot_policy_act_siglip"
+version = "0.1.0"
+description = "ACT conditioned on SigLIP subtask embeddings, with a subtask-progress head and a sequential planner"
+requires-python = ">=3.12"
+dependencies = ["numpy", "torch"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
