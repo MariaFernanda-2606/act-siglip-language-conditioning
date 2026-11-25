@@ -120,6 +120,47 @@ def segment(cost: np.ndarray, min_frames: int) -> list[int]:
     return [0] + list(reversed(ends))
 
 
+def _smooth(values: np.ndarray, window_s: float, fps: float) -> np.ndarray:
+    window = max(1, round(window_s * fps))
+    return np.convolve(values, np.ones(window) / window, mode="same")
+
+
+def refine_event_boundaries(
+    state: np.ndarray,
+    bounds: list[int],
+    fps: float,
+    gripper_smoothing_s: float = 0.3,
+    gap_s: float = 0.5,
+    left_arm_threshold: float = 0.4,
+) -> list[int]:
+    """Move the move->open and open->place boundaries onto physical events.
+
+    The phase prototypes cannot separate `open` from its neighbours (the right
+    arm moves at a similar overall speed), so the dynamic program squeezes
+    `open` down to the minimum duration.  Two events mark the transitions:
+
+    * move->open: strongest closing of the right gripper, i.e. grasping the
+      drawer handle, searched between the predicted pick->move and open->place
+      boundaries;
+    * open->place: first frame after the new open start where the left-arm
+      joint speed (rad/s, joints 0-5) exceeds `left_arm_threshold`, i.e. the
+      cube starts travelling to the drawer, searched before place->close.
+    """
+    refined = list(bounds)
+    gap = round(gap_s * fps)
+    gripper_velocity = np.gradient(_smooth(state[:, 13], gripper_smoothing_s, fps)) * fps
+    lo, hi = bounds[1] + gap, bounds[3] - gap
+    if hi > lo:
+        refined[2] = int(np.argmin(gripper_velocity[lo:hi]) + lo)
+    left_speed = _smooth(np.linalg.norm(np.gradient(state[:, :6], axis=0) * fps, axis=1), gripper_smoothing_s, fps)
+    lo, hi = refined[2] + gap, bounds[4] - gap
+    if hi > lo:
+        above = np.flatnonzero(left_speed[lo:hi] > left_arm_threshold)
+        if len(above):
+            refined[3] = int(above[0] + lo)
+    return refined
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, required=True, help="LeRobot v3 dataset root")
@@ -131,6 +172,11 @@ def main() -> None:
     parser.add_argument("--min-duration-s", type=float, default=1.0)
     parser.add_argument("--smoothing-s", type=float, default=0.5)
     parser.add_argument("--cube-color", choices=("red", "green", "yellow"), help="Optional colour supplied by the VLM/task instruction")
+    parser.add_argument("--refine-events", action="store_true",
+                        help="Re-place move->open (right-gripper grasp) and open->place (left-arm onset) on kinematic events")
+    parser.add_argument("--refine-gripper-smoothing-s", type=float, default=0.3)
+    parser.add_argument("--refine-gap-s", type=float, default=0.5)
+    parser.add_argument("--refine-left-arm-threshold", type=float, default=0.4)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
@@ -145,12 +191,17 @@ def main() -> None:
     means, variances = fit_prototypes(args.root, gt, train_episodes, fps, args.smoothing_s)
 
     result = {
-        "method": "kinematic_phase_prototypes_v1",
+        "method": "kinematic_phase_prototypes_v2_event_refined" if args.refine_events else "kinematic_phase_prototypes_v1",
         "training_episodes": train_episodes,
         "fps": fps,
         "smoothing_s": args.smoothing_s,
         "min_duration_s": args.min_duration_s,
         "leave_one_out": args.leave_one_out,
+        "event_refinement": {
+            "gripper_smoothing_s": args.refine_gripper_smoothing_s,
+            "gap_s": args.refine_gap_s,
+            "left_arm_threshold": args.refine_left_arm_threshold,
+        } if args.refine_events else None,
         "episodes": {},
         "skipped_episodes": {},
     }
@@ -168,6 +219,14 @@ def main() -> None:
         x = features(rows, fps, args.smoothing_s)
         costs = np.sum((x[:, None, :] - means[None, :, :]) ** 2 / variances[None, :, :], axis=2)
         bounds = segment(costs, max(1, round(args.min_duration_s * fps)))
+        if args.refine_events:
+            state = np.asarray([row["observation.state"] for row in rows], dtype=float)
+            bounds = refine_event_boundaries(
+                state, bounds, fps,
+                gripper_smoothing_s=args.refine_gripper_smoothing_s,
+                gap_s=args.refine_gap_s,
+                left_arm_threshold=args.refine_left_arm_threshold,
+            )
         atoms = []
         for phase, start, end in zip(PHASES, bounds[:-1], bounds[1:], strict=True):
             label = f"{phase}_{args.cube_color}" if args.cube_color else phase
