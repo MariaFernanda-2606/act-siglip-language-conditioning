@@ -60,10 +60,15 @@ O Qwen fornece linguagem natural quando consegue descrever uma ação. A cinemá
 
 ## Dataset final
 
-O modelo final foi treinado com **`place_the_cubes_in_the_drawers_v4`** (LeRobot v3.0, 300 episódios, 324.541 frames, 30 fps, 4 câmeras, 13 GB). Nesta máquina ele está em:
+O modelo final foi treinado com **`place_the_cubes_in_the_drawers_v4`** (LeRobot v3.0, 300 episódios, 324.541 frames, 30 fps, 4 câmeras, 13 GB), público no Hugging Face:
 
-```text
-~/.cache/huggingface/lerobot/MariaFPG/place_the_cubes_in_the_drawers_v4
+**https://huggingface.co/datasets/MariaFPG/place_the_cubes_in_the_drawers_v4**
+
+Para baixar para o caminho que os configs de treino esperam:
+
+```bash
+export DATA_ROOT=~/.cache/huggingface/lerobot/MariaFPG
+python -c "from huggingface_hub import snapshot_download; snapshot_download('MariaFPG/place_the_cubes_in_the_drawers_v4', repo_type='dataset', local_dir='$DATA_ROOT/place_the_cubes_in_the_drawers_v4')"
 ```
 
 | Episódios | Origem |
@@ -73,7 +78,7 @@ O modelo final foi treinado com **`place_the_cubes_in_the_drawers_v4`** (LeRobot
 | 245–279 | amarelo: primeiros 35 de `MariaFPG/place_the_yellow_cube_in_the_yellow_drawer` |
 | 280–299 | verde: primeiros 20 de `MariaFPG/place_the_green_cube_in_the_green_drawer` |
 
-Os episódios 210–299 vieram dos datasets por cor (LeRobot v2.1), convertidos para v3.0 e agregados ao v3_annotated. O dataset `v4` ainda **não está no Hugging Face**; o `v3_annotated` está, como privado.
+Os episódios 210–299 vieram dos datasets por cor (LeRobot v2.1), convertidos para v3.0 e agregados ao v3_annotated. As etapas 1–3 do treino usam o `v3_annotated`, que está **privado** no Hugging Face; a etapa 4 (modelo final) usa só o `v4`.
 
 As anotações usadas no treino ficam dentro do próprio dataset, em `annotations/`:
 
